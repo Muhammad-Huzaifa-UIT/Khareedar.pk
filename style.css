@@ -1,0 +1,242 @@
+.k1{
+    background-color: #5f4339;
+    height: 50px;
+}
+.khareed{
+    color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+}
+.solution{
+    color: #ffffff;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.nav-link{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.fa-shopping-cart,.fa-sign-in{
+    font-size: 28px;
+    color: #5f4339;
+}
+footer{
+    background: #f1f1f1;
+    padding: 90px 0;
+}
+  
+.footer-container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+  
+.logo{
+    width: 180px;
+}
+  
+.social-media{
+    margin: 20px 0;
+}
+  
+.social-media a{
+    color: #001a21;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+}
+  
+.social-media a:hover{
+    color: #5f4339;
+}
+  
+.right-col h1{
+    font-size: 26px;
+}
+  
+.border{
+    width: 100px;
+    height: 4px;
+    background: #5f4339;
+}
+  
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+  
+.txtb{
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #293043;
+    background: #ddd;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+}
+  
+.btn{
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #f1f1f1;
+    background: #5f4339;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: opacity  .3s linear;
+}
+  
+.btn:hover{
+    opacity: .7;
+}
+
+.payment-methods{
+    margin: 20px 0; 
+}
+.payment-methods a{
+     color: #001a21;
+     margin-right: 25px;
+     font-size: 22px;
+     text-decoration: none;
+     transition: .3s linear;
+}
+   
+.payment-methods a:hover{
+     color: #5f4339;
+}
+.payment-methods h1{
+     font-size: 26px;
+     /* padding-bottom: 30px; */
+}
+  
+@media screen and (max-width:960px) {
+    .footer-container{
+      max-width: 600px;
+    }
+    .right-col{
+      width: 100%;
+      margin-bottom: 60px;
+    }
+  
+    .left-col{
+      width: 100%;
+      text-align: center;
+    }
+    .payment-methods{
+        width: 100%;
+        text-align: center;
+    }
+}
+  
+  
+@media screen and (max-width:700px){
+    .btn{
+      margin: 0;
+      width: 100%;
+      margin-top: 20px;
+      }
+}
+.manhead{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    color: black;
+}
+.na{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    color: #5f4339;
+}
+.backcolor{
+    background-color: lightgray
+}
+.navbar-brand :hover{
+    background-color: lightgrey !important;
+}
+@media screen and(max-width:550px){
+    .na{
+        max-width: 560px;    
+    }
+}
+.fa-home{
+    font-size: 20px;
+    color: #5f4339;
+    
+}
+.fa-phone-square{
+    font-size: 20px;
+    color: #5f4339;
+    
+}
+.fa-question-circle{
+    font-size: 20px;
+    color: #5f4339;
+    
+}
+.fa-shopping-cart{
+    font-size: 20px;
+}
+.card1{
+    display: flex;
+    justify-content: space-around;
+}
+.card2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.card{
+    width: 100%;
+    height: auto;
+}
+.marqueetext{
+    font-size: 50px;
+    font-family:'Acme', sans-serif;
+}
+.fa-fire{
+    color: orangered;
+}
+.signin{
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #5f4339 ;
+    font-weight: bold ;
+}
+.form-row{
+    max-width: 70%;
+}
+.col-md-6{
+    margin-top: 30px;
+}
+.form-group{
+    max-width: 69%;
+}
+.col-md-4{
+    margin-top: 30px;
+}
+.col-md-2{
+    margin-top: 30px;
+}
+.form-check{
+    margin-top: 30px;
+}
